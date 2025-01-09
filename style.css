@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "IBM Plex Sans", serif;
+}
+
+h1{
+    font-family: "Bowlby One SC", serif;
+    word-spacing: 5px;
+    line-height: 5rem;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main-btn{
+    width: 220px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px solid rgba(0, 0, 0, 1);
+    color: white;
+    display: inline-block;
+    -webkit-transition: all .4s ease-in-out 0s;
+    -o-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn-2{
+    margin-top: 2rem;
+    width: 220px;
+    padding: 12px 30px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-transition: all .4s ease-in-out 0s;
+    -o-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.btn-2:hover{
+    background-color: #000;
+    color: white;
+}
+
+/* 
+==================================================
+     top-header design 
+================================================== 
+*/
+.top-header{
+    padding: 0.3rem 0;
+    background-color: black;
+}
+
+.top-header p{
+    color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    font-weight: 300;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.top-header a{
+    color: white;
+    font-weight: 400;
+    text-decoration: underline 1px white;
+}
+
+.fa-xmark{
+    color: white;
+    margin-left: 11.5rem;
+}
+
+/* 
+==================================================
+     header design 
+================================================== 
+*/
+
+.navbar{
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Bowlby One SC", serif;
+    line-height: 5rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-nav{
+    gap: 0.5rem;
+}
+
+.nav-item{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.Search{
+    padding: 15px 40px;
+    width: 600px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F2F0F1;
+    margin-left: -40px;
+    margin-right: 20px;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+}
+
+.fa-cart-shopping{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.fa-user{
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* 
+==================================================
+     section-01 hero section design 
+================================================== 
+*/
+
+.hero-section{
+    width: 100%;
+    padding-top: 40px;
+    background-color: #F2F0F1;
+}
+
+.hero-blok-01{
+    margin-top: 30px;
+}
+
+.counter1{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.counter2{
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.counter3{
+    text-align: center;
+}
+
+
+
+.main-img{
+    width: 100%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.ourbrands{
+    padding: 50px 0;
+    background-color: black;
+}
+
+.ourbrands ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.ourbrands ul li{
+    display: inline;
+    word-spacing: 6rem;
+    line-height: 4rem;
+}
+
+.brand-logo{
+    display: inline;
+    height: 45px;
+    width: 250px;
+}
+
+/* 
+==================================================
+     section-02 new-arrivals design 
+================================================== 
+*/
+
+.new-arrivals{
+    padding: 100px 0;   
+}
+
+.new-arrivals-heading{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "Bowlby One SC", serif;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+}
+
+.card-new-arrivals{
+    border: none;
+    background-color: transparent;
+}
+
+.card-new-arrivals .card-body{
+    padding: 0;
+    margin: 0;
+}
+
+.card-new-arrivals h6{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.rating{
+    list-style: none;
+}
+
+.rating li{
+    display: inline;
+    color: #FFC633;
+}
+
+.card-p{
+    display: inline;
+    font-size: 0.85rem;
+}
+
+.card-new-arrivals h4{
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 0.6rem;
+}
+
+.card-new-arrivals h4 span{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.card-p-02{
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    display: inline;
+    background-color: rgba(255, 51, 51, 0.1);
+    color: rgba(255, 51, 51, 1);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.new-arrivals hr{
+    margin-top: 80px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.browse-by{
+    background-color: #F0F0F0;
+    padding: 80px;
+    margin: 80px 0;
+    border-radius: 30px;
+}
+
+.dress-style-img-01{
+    height: 280px;
+}
+
+.dress-style-img-02{
+    margin: 0 0 50px 50px;
+    height: 280px;
+    width: 685px;
+}
+
+.dress-style-img-03{
+    height: 280px;
+}
+
+.dress-style-img-04{
+    width: 430px;
+    height: 280px;
+    margin-left: -80px !important;
+}

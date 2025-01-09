@@ -1,0 +1,130 @@
+@media (max-width:1400px){
+    .Search{
+        width: 350px;
+    }
+
+}
+
+@media (max-width:990px){
+    h1{
+        word-spacing: 3px;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .main-btn{
+        width: 160px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 15px;
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 1);
+        color: white;
+        display: inline-block;
+    }
+
+    .fa-xmark{
+        display: none !important;
+    }
+
+    .logo{
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+
+    .Search{
+        display: none;
+    }
+
+    .counter3{
+        text-align: left;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width:768px){
+    .browse-by{
+        padding: 40px 50px;
+        margin: 50px 0;
+    }
+
+    .dress-style-img-01{
+        height: 250px;
+        width: 400px;
+    }
+    
+    .dress-style-img-02{
+        height: 250px;
+        width: 400px;
+        margin: 0 !important;
+        margin: 30px 0 !important;
+    }
+    
+    .dress-style-img-03{
+        height: 250px;
+        width: 400px;
+        margin: 0 !important;
+        margin: 0 0 30px 0 !important;
+    }
+    
+    .dress-style-img-04{
+        height: 250px;
+        width: 400px;
+        margin: 0 !important;
+    } 
+}
+
+
+@media (max-width:511px){
+    h1{
+        word-spacing: 3px;
+        line-height: 4rem;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .main-btn{
+        width: 100%;
+        padding: 15px 0;
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .btn-2{
+        width: 100%;
+    }
+
+    .top-header p{
+        font-size: 0.65rem;
+    }
+
+    .fa-cart-shopping{
+        margin-right: 0rem;
+    }
+
+
+    .hero-section{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .counter1{
+        width: 100px;
+    }
+    .counter2{
+        width: 100px;
+        border: none;
+        text-align: left;
+    }
+
+    .browse-by{
+        padding: 40px;
+        margin: 50px 0;
+    }
+ 
+}
